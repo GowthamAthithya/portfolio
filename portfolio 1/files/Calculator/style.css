@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+button:hover {
+  background: linear-gradient(rgb(122, 230, 122), rgb(103, 241, 156));
+}
+
+.container {
+  width: 15rem;
+  height: 16.5rem;
+  justify-content: center;
+  text-align: center;
+  margin: 5% 10% 0 30%;
+  display: flex;
+  border: 0.1rem solid black;
+  flex-direction: column;
+  background-color: rgb(90, 90, 90);
+  border-radius: 1rem;
+  box-shadow: 0.05rem 0.2rem 0.3rem;
+}
+
+.display-screen {
+  padding: 0.1rem 0.1rem 1rem 0.1rem;
+}
+
+.display {
+  width: 13.5rem;
+  height: 2.8rem;
+  border: 0.1rem solid rgb(70, 66, 83);
+  outline: 0.1rem solid rgb(199, 188, 188);
+  border-radius: 0.5rem;
+  direction: rtl;
+  background-color: rgb(206, 228, 211);
+  font-size: 1.5rem;
+  color: rgb(151, 81, 172);
+}
+
+.row {
+}
+
+.row button {
+  width: 3rem;
+  height: 2.2rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.equal-sign {
+  background-color: orange;
+}
